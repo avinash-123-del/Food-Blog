@@ -1,0 +1,116 @@
+.section-7 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+.section-7-container{
+    display: flex;
+    flex-direction: column;
+    background-color: #FF7629;
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 90px;
+    padding-bottom: 100px;
+    row-gap: 33px;
+    padding-left: 150px;
+    box-sizing: border-box;
+}
+
+.section-7-container-left-head {
+    font-family: DM Sans;
+    font-weight: 700;
+    font-size: 40px;
+    color: #ffffff;
+    max-width: 80%;
+}
+
+.section-7-container-left-para {
+    font-family: DM Sans;
+    font-weight: 500;
+    font-size: 16px;
+    color: #fffafa;
+    max-width: 80%;
+}
+
+.section-7-button-container {
+    display: flex;
+    -moz-column-gap: 30px;
+    column-gap: 30px;
+}
+
+.section-7-Button1 {
+    color: #000000;
+    background-color: #ffffff;
+    padding-top: 10px;
+    padding-left: 25px;
+    padding-bottom: 10px;
+    padding-right: 25px;
+    font-size: 18px;
+    border-radius: 50px;
+    outline: none;
+    font-weight: 500;
+    text-align: center;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #cccccc;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    font-family: DM Sans;
+}
+
+button {
+    appearance: auto;
+    writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: buttontext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    box-sizing: border-box;
+    background-color: buttonface;
+    margin: 0px;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonborder;
+    border-image: initial;
+}
+
+.section-7-Button2 {
+    color: #fff;
+    background-color: #FF7629;
+    padding-top: 10px;
+    padding-left: 25px;
+    padding-bottom: 10px;
+    padding-right: 25px;
+    font-size: 16px;
+    border-radius: 50px;
+    outline: none;
+    font-weight: 500;
+    text-align: center;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #ffffff;
+    cursor: pointer;
+    user-select: none;
+    font-family: DM Sans;
+}
+
+.section-7-img-container {
+    display: flex;
+    
+}
+
+.section-7-image {
+    width: 100%;
+}
